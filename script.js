@@ -9,11 +9,11 @@ let y = 3 ;
 
 let z = true ;
 
-x = "John";
+x = "Jesse";
 //permanently set the variable name to logan
 const name = "Logan"
 //unable to change the name value to roman
-name = "roman" ;
+name = "roman";
 
 //declaration of age
 let age;
