@@ -12,7 +12,7 @@ function encoder1(){
 
 
     let len = value.length;
-    console.log(" The word is ", len, " letters long);
+    console.log(" The word is ", len, " letters long ")
 
     let encodedValue =  ""; 
     
