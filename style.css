@@ -11,6 +11,10 @@
         background-color: blue;
         height: 100px;
    }
+   #encoder,#decoder{
+     border: 1px black solid;
+   
+   }
 
    nav{
         width: 100%;
@@ -20,8 +24,8 @@
 
    #container{
         height: 500px;
-        background-color: white
-        width; 100%;
+        background-color: white;
+        width: 100%;
         display: flex;
    }
 
@@ -50,8 +54,8 @@
         }
 
         #sidebar{
-            background-color: blueviolet
-            display; inline;
+            background-color: blueviolet;
+            display: inline;
             height: 100%;
             width: 20%;
         }
