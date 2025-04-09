@@ -6,21 +6,33 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <a href="decoder/decoder.html">Decoder</a>
     <div id="responsive">
         <header>Decoder Header </header>
-        <nav>navMenu</nav>
+        <nav>
+        <div id="Hamburger" onclick="menu(this)"> 
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav>
+            <ul id="menuitems">
+                <li>Resume</li>
+                <li>Education</li>
+                <li>Mission</li>
+                <li>Experience</li>
+                <li>JS Lessons</li>
+            </ul>
+        </nav>
         <div id="container">
                 <div id="sidebar">sidebar</div>
                 <div id="inner-container">inner-container
                     <div>Enter word to decode :</div> <br>
-                    <input type="text" id="word">
-                    <button id="button" onclick="encoder1()">submit</button>
                     <div id="code-output"></div>
                 </div>                        
             </div>
             <footer>mobileFooter</footer>
         </div>
-        <a href="decoder/decoder.html">Decoder</a>
         <script src="decoder.js"></script>
     </body>
 </html>

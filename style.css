@@ -19,7 +19,9 @@
    nav{
         width: 100%;
         background-color: purple;
-        height: 50px
+        height: 50px;
+        position: relative;
+        
    }
 
    #container{
@@ -46,7 +48,35 @@
         height: 100%;
     }
 
+ul {
+     list-style-type: none;
+     display: flex;
+     position: absolute;
+     top: 50;
+     left: 50;
+     flex-direction: column;
+}
 
+#Hamburger {
+     width: 40px;
+     height: 40px;
+     background-color: aqua;
+     border: 1px solid black;
+     border-radius: 10px;
+     margin: 10px 0 0 5px;
+     box-shadow: 5px 10px grey;  
+}
+#Hamburger > div{
+     width: 35px;
+     height: 5px;
+     background-color: black;
+     margin: 6px auto;
+
+}
+ul >li {
+     background-color: white;
+     width: 100px;
+}
 
     @media only screen and (min-width: 421px){
         body{

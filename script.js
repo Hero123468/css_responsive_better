@@ -5,9 +5,9 @@ let output = document.getElementById("code-output");
 console.log("output = ", output);
 let x = "Q";
 //declaration and initialization of the variable with the value 3
-let y = 3 ;
+let y = 3;
 
-let z = true ;
+let z = true;
 
 x = "Jesse";
 //permanently set the variable name to logan
@@ -19,4 +19,17 @@ name = "roman";
 let age;
 //initialization of age
 age = 33;
-output.innerHTML= name;
+
+output.innerHTML = name;
+
+//create the function
+const menuitems = document.getElementById("menuitems"); 
+let menu = ()=> {
+    console.log("THIS is", elem.nextElementSibling.style.display);
+    if(elem.nextElementSibling.style.display == ""){
+        menuitems.style.display = "flex"
+    }
+    else{
+        menuitems.style.display = ""
+    }
+}
