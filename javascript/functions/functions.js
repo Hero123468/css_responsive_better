@@ -10,7 +10,7 @@ function addNumbers(x, y){
 
 
 // this is the actual algorythm
-let solution = xNum = yNum;
+let solution = xNum + yNum;
 
 
 output.innerHTML = solution
@@ -22,7 +22,10 @@ return solution;
 button.addEventListener('click', function(){
     console.log('I got called')
     let num1 = input1.value;
+    console.log("num1 is....", typeof num1)
     let num2 = input2.value;
+    console.log("num2 is....", typeof num2)
     addNumbers(num1 , num2)
+    
 })
 

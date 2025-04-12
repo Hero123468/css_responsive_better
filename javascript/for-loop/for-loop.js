@@ -8,18 +8,18 @@ let codeOutput = document.getElementById("code-output")
 function vowelRemover(value){
     let solution = ''
     console.log('value', value)
-    let len - value.length
+    let len = value.length
     console.log('the length of the number is',len)
     for(let i = 0; i < len ;i++){
         console.log(value[i])
-        if(value[i] == 'a') || value[i] == 'e' || value[i] == 'i' || value[i] == 'o' || value[i] == 'u' ){
+        if(value[i] == 'a' || value[i] == 'e' || value[i] == 'i' || value[i] == 'o' || value[i] == 'u' ){
 
         }
         else{
             solution += value[i]
         }
     }
-    codeOutput.innerHtml = solution
+    codeOutput.innerHTML = solution
 
 }
 

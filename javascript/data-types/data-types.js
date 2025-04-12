@@ -13,10 +13,10 @@ console.log('This is a', typeof bool);
 let nul; 
 console.log('This is a',typeof nul);
 
-let obj = {"name" : "Jesse" }
+let obj = {name : "Jesse" }
 console.log('This is a', typeof obj);
 
-let myArr = [{"name" : "Falleur"},"name" : "Jesse"}]
+let myArr = [{name : "Falleur"},{name : "Jesse"}]
 console.log("This is a", typeof myArr)
 
 codeoutput.innerHTML = 'check in Console'

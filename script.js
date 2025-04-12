@@ -1,35 +1,30 @@
-
-//referencing id name code output in html
+// referencing the id named code-output in html
 let output = document.getElementById("code-output");
+
 //printing the value of output in the console
-console.log("output = ", output);
-let x = "Q";
-//declaration and initialization of the variable with the value 3
+console.log("output= ",output)
+
+//declaration and initialization of the variable x with the value jordan
+let x = "Jordan";
+
+// declaration and initialization of the variable y with the value 3
 let y = 3;
 
 let z = true;
 
 x = "Jesse";
-//permanently set the variable name to logan
-const name = "Logan"
-//unable to change the name value to roman
-name = "roman";
 
-//declaration of age
+// permanently set the variable name to the value logan
+const name = "Logan";
+
+// unable to change the name value to roman
+//name = "roman"
+
+// declaration of age
 let age;
-//initialization of age
+
+// initialization of age
 age = 33;
 
-output.innerHTML = name;
+  output.innerHTML= x;
 
-//create the function
-const menuitems = document.getElementById("menuitems"); 
-let menu = ()=> {
-    console.log("THIS is", elem.nextElementSibling.style.display);
-    if(elem.nextElementSibling.style.display == ""){
-        menuitems.style.display = "flex"
-    }
-    else{
-        menuitems.style.display = ""
-    }
-}

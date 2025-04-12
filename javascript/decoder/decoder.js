@@ -75,4 +75,7 @@ function decoder1() {
     console.log("The final result is...", result);
     output2.innerHTML = result.toLowerCase();
 }
+        
+
+        
 //function call

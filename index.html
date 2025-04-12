@@ -1,38 +1,44 @@
 <!DOCTYPE html>
-<html>  
+<html>
     <head>
-       <title>Decoder</title>
-       <link href="style.css" rel="stylesheet">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <a href="decoder/decoder.html">Decoder</a>
-    <div id="responsive">
-        <header>Decoder Header </header>
-        <nav>
-        <div id="Hamburger" onclick="menu(this)"> 
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <nav>
-            <ul id="menuitems">
-                <li>Resume</li>
-                <li>Education</li>
-                <li>Mission</li>
-                <li>Experience</li>
-                <li>JS Lessons</li>
-            </ul>
-        </nav>
-        <div id="container">
-                <div id="sidebar">sidebar</div>
-                <div id="inner-container">inner-container
-                    <div>Enter word to decode :</div> <br>
+        <title> CSS Responsive Better</title>
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+        <div id="responsive">
+            <header> CSS Responsive Better </header>
+
+            <nav> 
+                <!-- pre click, folded in
+                hamburger only serves mobile -->
+                <div id="Hamburger" onclick="menu(this)">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                 <!-- post click, folded out
+                ul serves mobil and laptop -->
+                <ul id="menuitems">
+                    <li><a href = "index.html"><button> H o m e</button></a></li>
+                    <li>Education</li>
+                    <li>Mission</li>
+                    <li>Experience</li>
+                    <li><a href= "javascript/javascript.html"><button>JS LESSONS</button></a></li>
+                </ul>
+            </nav>
+
+            <div id="container">
+                <div id="sidebar"> sidebar </div>
+                <div id="inner-container"> inner-container
+                    <div id="output"> OUTPUT:</div>
                     <div id="code-output"></div>
-                </div>                        
+                </div>
             </div>
-            <footer>mobileFooter</footer>
+            <footer> Mobile Footer </footer>
         </div>
-        <script src="decoder.js"></script>
+        <script src="script.js"></script>
+        <script src="hamburger.js"></script> 
     </body>
 </html>
