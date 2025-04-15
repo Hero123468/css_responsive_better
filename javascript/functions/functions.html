@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Functions</title>
-        <link href="../style.css" rel="stylesheet">
+        <link href="../../style.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
@@ -10,7 +10,24 @@
             <header>
                 Mobile Responsive
             </header>
-            <nav>Menu</nav>
+            <nav>
+                <!-- pre click, folded in
+                hamburger only serves mobile -->
+                <div id="Hamburger" onclick="menu(this)">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                 <!-- post click, folded out
+                ul serves mobil and laptop -->
+                <ul id="menuitems">
+                    <li><a href = "../../index.html"><button> H o m e</button></a></li>
+                    <li>Education</li>
+                    <li>Mission</li>
+                    <li>Experience</li>
+                    <li><a href= "../javascript.html"><button>JS LESSONS</button></a></li>
+                </ul>
+            </nav>
             <div id="container">
                 <div id="sidebar">sidebar</div>
 
@@ -33,5 +50,6 @@
             </footer>
           </div>
           <script src="functions.js"></script>
+          <script src="../../hamburger.js"></script>
     </body>
 </html>
