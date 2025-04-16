@@ -44,8 +44,14 @@ START OF MOBILE VERSION
  #inner-container{
      background-color: chartreuse;
      height: 100%;
+
+
  }
- 
+#main{
+    background-color: chartreuse;
+    width: 100%;
+    text-align:center;    
+} 
  /* nav stuff from week 7 */
  ul#menuitems {
      list-style-type: none;
