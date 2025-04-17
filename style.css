@@ -2,145 +2,145 @@
 START OF MOBILE VERSION
 */
 #responsive{
-     width: 90%;
-     margin: 0 auto;
-     background-color: black;
-     border: 1px solid gray;
-     max-width: 420px;
-    border-radius: 10px;
- }
+    width: 90%;
+    margin: 0 auto;
+    background-color: black;
+    border: 1px solid gray;
+    max-width: 420px;
+   border-radius: 10px;
+}
 
- header{
-     width: 100%;
-     background-color: blue;
-     height: 100px;
-     display: none;
- }
+header{
+    width: 100%;
+    background-color: blue;
+    height: 100px;
+    display: none;
+}
 
- nav{
-     width: 100%;
-     height: 50px;
-     /* added in week 7, it allows the hamburger to be position absolute which only works if position is relative */
-     position: relative;
- }
+nav{
+    width: 100%;
+    height: 50px;
+    /* added in week 7, it allows the hamburger to be position absolute which only works if position is relative */
+    position: relative;
+}
 
- #name{
-     position: absolute;
-     top: -48px;
-     left: 160px;
-     color: lightgrey;
-     font-size: 2.5em;
- }
+#name{
+    position: absolute;
+    top: -48px;
+    left: 160px;
+    color: lightgrey;
+    font-size: 2.5em;
+}
 
- #container{
-     /*height: 500px;*/
-     background-color: white;
-     width: 100%;
-     display: flex;
- }
+#container{
+    /*height: 500px;*/
+    background-color: white;
+    width: 100%;
+    display: flex;
+}
 
- footer{
-     width: 100%;
-     height: 100px;
-     color: grey;
-     text-align: center;
- }
+footer{
+    width: 100%;
+    height: 100px;
+    color: grey;
+    text-align: center;
+}
 
- #sidebar{
-     background-color: blueviolet;
-     display: none;
-     height: 100%;
- }
+#sidebar{
+    background-color: blueviolet;
+    display: none;
+    height: 100%;
+}
 
- #inner-container{
-     background-color: chartreuse;
-     height: 100%;
-
-
- }
-#main{
+#inner-container{
     background-color: chartreuse;
-    width: 100%;
-    text-align:center;
+    height: 100%;
+
+
 }
- /* nav stuff from week 7 */
- ul#menuitems {
-     list-style-type: none;
-     display: none;
-     position: absolute;
-     top: 39px;
-     left: 2px;
-     flex-direction: column;
- }
+#main{
+   background-color: chartreuse;
+   width: 100%;
+   text-align:center;
+}
+/* nav stuff from week 7 */
+ul#menuitems {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    top: 39px;
+    left: 2px;
+    flex-direction: column;
+}
 ul#menuitems button{
-    width: 100%;
-    background-color: red;
-    display: inline-block;
+   width: 100%;
+   background-color: red;
+   display: inline-block;
 }
 
- #Hamburger {
-     width: 40px;
-     height: 40px;
-     background-color: aqua;
-     border: 1px solid black;
-     border-radius: 10px;
-     margin: 10px 0 0 5px;
-     box-shadow: 1px 4px grey;
+#Hamburger {
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 0 0 5px;
+    box-shadow: 1px 4px grey;
 
- }
- #Hamburger > div{
-     width: 35px;
-     height: 5px;
-     background-color: black;
-     margin: 6px auto;
- }
+}
+#Hamburger > div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px auto;
+}
 
- ul#menuitems {
-     background-color: azure;
-     width: 100px;
-     padding: 0;
- }
+ul#menuitems {
+    background-color: azure;
+    width: 100px;
+    padding: 0;
+}
 
- ul#sidebaritems{
-     list-style-type: none;
-     padding: 0;
+ul#sidebaritems{
+    list-style-type: none;
+    padding: 0;
 
- }
- #sidebar{
-     background-color: orange;
-     display: inline;
-     height: 100%;
-     width: 30%;
- }
+}
+#sidebar{
+    background-color: orange;
+    display: inline;
+    height: 100%;
+    width: 30%;
+}
 .button {
-     width: 105px;
+    width: 105px;
 }
 
 #main p{
-    padding: 7%;
-    text-align: justify;
+   padding: 7%;
+   text-align: justify;
 }
 
 .fa {
 
-    font-size: 30px;
-    width: 50px;
-    text-decoration: none;
-    margin: 10px;
-    border-radius: 20%;
+   font-size: 30px;
+   width: 50px;
+   text-decoration: none;
+   margin: 10px;
+   border-radius: 20%;
 }
 
 .fa:hover {
-    opacity: 0.7;
+   opacity: 0.7;
 }
 .fa-facebook {
-    background: #3B5998;
-    color: white;
+   background: #3B5998;
+   color: white;
 }
 
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+   background: #55ACEE;
+   color: white;
 }
 
 /*
@@ -150,26 +150,26 @@ END OF MOBILE VERSION
 /*
 START OF TABLET VERSION
 */
- @media only screen and (min-width: 421px){
-     body{
-         background-color:indigo;
-     }
+@media only screen and (min-width: 421px){
+    body{
+        background-color:indigo;
+    }
 
-     #sidebar{
-         background-color: blueviolet;
-         display: inline;
-         height: 100%;
-         width: 20%;
-     }
+    #sidebar{
+        background-color: blueviolet;
+        display: inline;
+        height: 100%;
+        width: 20%;
+    }
 
-     #inner-container{
-         background-color: chartreuse;
-         height: 100%;
-         width: 80%;
-     }
+    #inner-container{
+        background-color: chartreuse;
+        height: 100%;
+        width: 80%;
+    }
 
- }
- /*
+}
+/*
 END OF TABLET VERSION
 */
 
@@ -177,12 +177,12 @@ END OF TABLET VERSION
 START OF LAPTOP VERSION
 */
 
- @media only screen and (min-width: 724px){
-     body{
-         background-color:black;
-     }
- }
+@media only screen and (min-width: 724px){
+    body{
+        background-color:black;
+    }
+}
 
- /*
+/*
 END OF LAPTOP VERSION
 */
