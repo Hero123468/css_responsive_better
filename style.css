@@ -55,8 +55,10 @@ footer{
 #inner-container{
     background-color: chartreuse;
     height: 100%;
-
-
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 #main{
    background-color: chartreuse;
@@ -141,6 +143,20 @@ ul#sidebaritems{
 .fa-twitter {
    background: #55ACEE;
    color: white;
+}
+
+.monsterimage {
+    max-width: 100%;
+    height: 100px;
+}
+
+.card {
+    padding: 5%;
+    width: 20%;
+    border: 1px blue solid;
+    border-radius: 5%;
+    margin-top: 5%;
+
 }
 
 /*

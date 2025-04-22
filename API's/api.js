@@ -2,6 +2,8 @@ const myHeaders = new Headers();
 myHeaders.append("Accept", "application/json");
 console.log("Here", myHeaders);
 
+
+
 const requestOptions = {
     method: "GET",
     headers: myHeaders,
@@ -38,6 +40,28 @@ fetch("https:www.dnd5eapi.co/api/2014/monsters", requestOptions)
 
 
 })
-.then(response4 => console.log("response4",response4))
+.then(response4 => {
+    var output = document.getElementById("inner-container")
+    console.log("What is output?", output)
+    console.log("response4",response4)
+    response4.forEach(function(item){
+        const card = document.createElement("div");
+        card.classList.add("card");
+
+        const img = document.createElement("img");
+        img.classList.add("monsterimage");
+        img.src = item.image;
+        img.alt = item.name;
+
+        const caption = document.createElement("p");
+        caption.textContent = item.name;
+
+        card.appendChild(img);
+        card.appendChild(caption);
+        output.appendChild(card);
+        
+        
+    })
+})
 .catch((error) => console.error(error))
 
