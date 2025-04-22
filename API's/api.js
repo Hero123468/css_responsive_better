@@ -8,32 +8,36 @@ const requestOptions = {
     redirect: "follow"
 };
 // IMAGES
-let URL = "https://www.dndSeapi.co"
-let imageURL = "/api/2014/Images/mosters/"
+let URL = "https://www.dnd5eapi.co"
+let imageURL = "/api/2014/images/monsters/"
 fetch("https:www.dnd5eapi.co/api/2014/monsters", requestOptions)
 .then((response)=>(response.text())
 .then((response2)=>JSON.parse(response2)))
 .then(response3 => {
-    console.log("Response 3 is ", response3)
+    console.log("Response 3 is ", response3.results)
     let arrayData = response3.results
     let arr = []
-    for(let i = 0; i < 8: i++){
-        arr.push(response3{i}.index)
-    return arr
+    for(let i = 0; i < 8; i++){
+        arr.push(arrayData[i].index)
+        
     }
-    return response3
+    console.log("the value of arr is...", arr)
+    return arr
 })
-.then(arrayNames => (
-    var listofObjects = [];
+.then(arrayNames => {
+    let listofObjects = [];
     arrayNames.forEach(function(entry) {
         console.log("Entry",URL + imageURL + entry + ".png")
-        //var singleObj = {};
-        //singleObj['name'] = entry;
-        //singleObj['value'] = entry;
-        //listofObjects.push(singleObj);
-}
+        let image = URL + imageURL + entry + ".png"
+        let obj = {};
+        obj['name'] = entry;
+        obj['image'] = image;
+        listofObjects.push(obj);
+    })
+    return listofObjects
 
 
-))
-.then(response4 => console.log(response4))
-.catch(error) => (console.error(error))
+})
+.then(response4 => console.log("response4",response4))
+.catch((error) => console.error(error))
+
