@@ -12,7 +12,7 @@ const requestOptions = {
 // IMAGES
 let URL = "https://www.dnd5eapi.co"
 let imageURL = "/api/2014/images/monsters/"
-fetch("https:www.dnd5eapi.co/api/2014/monsters", requestOptions)
+fetch("https://www.dnd5eapi.co/api/2014/monsters", requestOptions)
 .then((response)=>(response.text())
 .then((response2)=>JSON.parse(response2)))
 .then(response3 => {
@@ -58,7 +58,7 @@ fetch("https:www.dnd5eapi.co/api/2014/monsters", requestOptions)
 
         card.appendChild(img);
         card.appendChild(caption);
-        output.appendChild(card);
+        container.appendChild(card);
         
         
     })
